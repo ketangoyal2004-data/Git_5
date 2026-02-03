@@ -19,6 +19,11 @@ class std:
         self.country = country
         print(self.country)
 
+    def collegename(self,name):
+        self.name = name
+        print('collegename = ',self.name)
+
+
 
 obj = std()
 obj.name("Ketan goyal")
@@ -26,3 +31,4 @@ obj.course("BCA")
 obj.city("Jaipur")
 obj.branch("Full Stack")
 obj.country("India")
+obj.collegename('Apex university')

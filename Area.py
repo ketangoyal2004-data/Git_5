@@ -13,7 +13,15 @@ class Area:
         tri = 0.5 * b * h
         print(tri)
 
+    @staticmethod
+    def circle(r):
+        pie = 22 / 7
+        r = r * 2
+        Area = pie * r
+        print(Area)
+
 obj = Area()
 obj.Rectangle(10)
 obj.square(12,3)
 obj.triangle(12,3)
+obj.circle(12)
