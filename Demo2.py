@@ -15,8 +15,14 @@ class std:
         self.branch = branch
         print(self.branch)
 
+    def country(self,country):
+        self.country = country
+        print(self.country)
+
+
 obj = std()
 obj.name("Ketan goyal")
 obj.course("BCA")
 obj.city("Jaipur")
 obj.branch("Full Stack")
+obj.country("India")
